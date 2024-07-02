@@ -3,13 +3,15 @@
 
 # ATS - Prototype Scan-Board
 
-This board is one component of the Hub.
+This adaptation of the iBeacon demo is one component of a Hub consisting of two ESP32-Boards.
+It was developed as part of a bachelor's thesis about Asset Tracking in Hospitals written in German. The modified programme section is therefore commented in German.
+
 The common functionality is taken from ESP-IDF iBeacon Demo.
 The demo functionality is reduced to a receiver function only.
 
-Received beacon data is sent to mesh baord using serial configuration.
+Received beacon data is sent to the mesh baord using serial configuration.
 The serial configuration and the configuration of the UUID used to filter known Beacons
-can be found in scan.c 
+can be found in "scan.c".
 
 The original demo readme:
 
