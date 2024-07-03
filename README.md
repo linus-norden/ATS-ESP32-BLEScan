@@ -13,6 +13,23 @@ Received beacon data is sent to the mesh baord using serial configuration.
 The serial configuration and the configuration of the UUID used to filter known Beacons
 can be found in "scan.c".
 
+
+## All Repositories needed to build ATS:
+https://github.com/linus-norden/mosquitto-UNIX-time
+
+https://github.com/linus-norden/ATS-ESP32-BLEScan
+
+https://github.com/linus-norden/ATS-ESP32-WiFiMesh
+
+https://github.com/linus-norden/ATS-WebApp-Frontend
+
+https://github.com/linus-norden/ATS-WebApp-Backend
+
+https://github.com/linus-norden/ATS-Python-Microservice
+
+https://github.com/linus-norden/ATS-SQL-DB
+
+
 The original demo readme:
 
 # ESP-IDF iBeacon demo
